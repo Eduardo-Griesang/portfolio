@@ -1,0 +1,54 @@
+.tecnologies{
+    background: var(--background-color3);
+    padding-top: 6em;
+    padding-bottom: 3em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tecnologies-item{
+    margin-bottom: 1em;
+}
+
+.tecnologies-item-txt{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    line-height: 2em;
+}
+
+.progress{
+    width: 50%;
+}
+
+.card{
+    width: 18rem;
+}
+
+.card-img{
+    filter: sepia(100%) hue-rotate(120deg) blur(1.7px);
+}
+
+.college-card{
+    background: var(--background-color2);
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+}
+
+.college-card{
+    outline: 1px solid var(--background-color2);
+}
+
+.card-title{
+    line-height: 1.8em;
+    font-size: 1em;
+}
+
+.card-date{
+    color: aquamarine;
+    font-size: 0.7em;
+    line-height: 1.4em;
+}
+
+.card-text{
+    line-height: 1.3em;
+}

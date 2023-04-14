@@ -1,0 +1,47 @@
+:root{
+    --background-color: #061529;
+    --background-color2: #0b2241;
+    --background-color3: rgb(20, 20, 20);
+    --title-color: #A5D7E8;
+    --white: #ffffff;
+    --card-border: #1A5F7A;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bloob{
+    animation: rotate 20s infinite;
+    position: absolute;
+    background: linear-gradient(to right, #e6a0a0 5%, #4aafb3);
+    filter: blur(7em);
+    height: 15vmax;
+    aspect-ratio: 1;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    pointer-events: none; /* faz o blob não ser clicavel, permitindo o click de outras coisas embaixo dele */
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+
+    50%{
+        scale: 1 1.5;
+    }
+
+    to{
+        rotate: 360deg;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .bloob{
+        display: none;
+    }
+}
+  

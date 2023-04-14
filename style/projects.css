@@ -1,0 +1,24 @@
+.projects{
+    background: var(--background-color3);
+    padding-top: 6em;
+    padding-bottom: 3em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.projects-cards{
+    width: 20rem;
+}
+
+.btn{
+    background: var(--background-color3);
+    color: var(--white);
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: 1em;
+    width: 30%;
+}
+
+.btn:hover{
+    background: rgb(10, 9, 9);
+}

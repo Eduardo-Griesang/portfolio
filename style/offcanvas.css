@@ -1,0 +1,33 @@
+.offcanvas-color{
+    background: var(--background-color2);
+}
+
+.offcanvas-title{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+.offcanvas-btn{
+    color: var(--white);
+}
+
+.offcanvas-item{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 1.5em;
+}
+
+.offcanvas-item-clicable{
+    color: var(--white);
+    font-size: 2.5em;
+    max-width: 35px;
+}
+
+.offcanvas-item-clicable-txt{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}

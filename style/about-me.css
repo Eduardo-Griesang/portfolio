@@ -1,0 +1,53 @@
+.about__me{
+    background-color: var(--background-color2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.title{
+    color: var(--white);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.typed{
+    display: none;
+    width: 10ch;
+    animation: typing 2s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.about__me-txt{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media screen and (max-width:1024px) {
+  .about__me-txt{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

@@ -1,0 +1,125 @@
+header{
+    background: var(--background-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.header-screen{
+    aspect-ratio: 10 / 16;
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    background: rgba(165, 215, 232, .2);
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    position: relative;
+    width: 20%;
+}
+
+.header-screen-lines{                           /* Cria as linhas passando pelo card */
+    animation: overlay 27s infinite linear;
+    background: linear-gradient(
+        rgba(165, 215, 232, .2) 65%,
+        rgba(255, 255, 255, .27) 45%
+  );
+    background-size: 100% 9px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes overlay {                            /* Anima as linhas para andarem infinitamente para cima */
+    from {
+        background-position: 0% 0%;
+    } 
+    to {
+        background-position: 0% -100% ;
+    }
+}
+
+.header-screen-img{
+    background-image: url(../img/icon.jpeg);    /* imagem chamada aqui para funcionar corretamente */
+    filter: sepia(100%) hue-rotate(160deg);     /* filtro para deixar a img azulada */
+    position: absolute;
+    background-position: 70% 42%;               /* posição que começa a animação */
+    background-size: 150%;                      /* zoom em que começa a animação */
+    left: 0;
+    top: 0;
+    opacity: 35%;
+    height: 100%;
+    width: 100%;
+}
+
+.header-screen-sec{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    gap: 1em;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+.header-screen-sec__name{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.header-screen-sec__txt{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width:1582px) {
+    .header-screen-sec__name{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .header-screen{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-screen{
+        border: 3px solid var(--card-border);
+        width: 50%;
+    }
+    .header-screen-sec__name{
+        font-size: 2em;
+    }
+    .header-screen-sec__txt{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-screen{
+        width: 60%;
+    }
+    .header-screen-sec__name{
+        font-size: 2em;
+    }
+    .header-screen-sec__txt{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-screen{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header-screen{
+        width: 70%;
+    }
+}
