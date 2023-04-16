@@ -1,4 +1,5 @@
 :root{
+    font-size: 16px;
     --background-color: #061529;
     --background-color2: #0b2241;
     --background-color3: rgb(20, 20, 20);
@@ -9,6 +10,19 @@
 
 body{
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: var(--background-color3);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: aquamarine;
+    border-radius: 23px;
 }
 
 .bloob{

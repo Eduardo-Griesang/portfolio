@@ -22,3 +22,44 @@
 .btn:hover{
     background: rgb(10, 9, 9);
 }
+
+.react{
+    margin-left: 22%;
+    margin-top: 5%;
+    max-width: 185px;
+    max-height: 185px;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .projects{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .projects{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .card{
+        width: 16rem;
+    }
+    .react{
+        max-width: 150px;
+        max-height: 150px;
+    }
+}

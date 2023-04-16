@@ -52,3 +52,23 @@
 .card-text{
     line-height: 1.3em;
 }
+
+@media screen and (max-width:1650px) {
+    .tecnologies{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .tecnologies{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .card{
+        width: 16rem;
+    }
+}
