@@ -33,5 +33,30 @@
     height: 100%;
     top: 0;
     backdrop-filter: blur(20px);
+    box-sizing: border-box;
     z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+        justify-content: space-around;
+        font-size: 1.5em;
+    }
+    .menu-item{
+        padding: 1em;
+        margin-right: 0;
+    }
+    .blur{
+        height: 80%;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu{
+        font-size: 1.3em;
+    }
+    .menu-item{
+        padding: 0.8em;
+    }
 }

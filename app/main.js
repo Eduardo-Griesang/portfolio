@@ -1,3 +1,5 @@
+import menuItems from "./menuIconChange.js";
+
 const bloob = document.querySelector(".bloob");
 
 const hello = document.getElementById("hello");
@@ -36,3 +38,6 @@ document.addEventListener("scroll", () => {
     hello.style.display = "block";
   }
 });
+
+menuItems()
+
