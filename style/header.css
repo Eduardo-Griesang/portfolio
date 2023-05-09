@@ -42,11 +42,11 @@ header{
 }
 
 .header-screen-img{
-    background-image: url(../img/icon.jpeg);    /* imagem chamada aqui para funcionar corretamente */
+    background-image: url(../img/drawned\ icon.jpg);    /* imagem chamada aqui para funcionar corretamente */
     filter: sepia(100%) hue-rotate(160deg);     /* filtro para deixar a img azulada */
     position: absolute;
-    background-position: 70% 42%;               /* posição que começa a animação */
-    background-size: 150%;                      /* zoom em que começa a animação */
+    background-position: 50% 42%;
+    background-size: 170%;                   
     left: 0;
     top: 0;
     opacity: 35%;
