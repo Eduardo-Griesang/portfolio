@@ -18,6 +18,12 @@ document.body.onmousemove = (event) => {
 
   bloob.style.top = `${positionY}px`; /* adiciona a posição no css da div bloob eixo Y */
   bloob.style.left = `${clientX}px`; /* adiciona a posição no css da div bloob eixo X */
+
+  const height = document.documentElement.scrollHeight /* pega toda a altura do html */
+
+  if (positionY >= height - 200){
+    bloob.style.top = `${height - 200}px`;  /* se o 'positionY' chegar a altura da tela -200px ele trava o bloob nessa posição Y */
+  }
 };
 
 /* event listener de scroll, para o blob seguir o cursor mesmo sem o movimento do mouse */

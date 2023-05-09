@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--background-color);
+    padding: 4em;
+    position: absolute;
+    width: 100vw;
+    z-index: 10;
+}
+
+.footer-title{
+    font-size: 1.2em;
+    color: var(--white);
+}
+
+.footer-item{
+    color: var(--white);
+    font-size: 2em;
+    margin-right: 2em;
+}
