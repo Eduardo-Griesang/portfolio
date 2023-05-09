@@ -21,8 +21,8 @@ document.body.onmousemove = (event) => {
 
   const height = document.documentElement.scrollHeight /* pega toda a altura do html */
 
-  if (positionY >= height - 200){
-    bloob.style.top = `${height - 200}px`;  /* se o 'positionY' chegar a altura da tela -200px ele trava o bloob nessa posição Y */
+  if (positionY >= height - 400){
+    bloob.style.top = `${height - 400}px`;  /* se o 'positionY' chegar a altura da tela -200px ele trava o bloob nessa posição Y */
   }
 };
 
