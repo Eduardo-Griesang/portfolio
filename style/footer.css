@@ -16,3 +16,16 @@ footer{
     font-size: 2em;
     margin-right: 2em;
 }
+
+@media screen and (max-width:700px) {
+    footer{
+        flex-direction: column;
+        gap: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .item{
+        max-width: 32px;
+        margin-right: 1em;
+    }
+}
