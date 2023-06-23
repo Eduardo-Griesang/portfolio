@@ -1,5 +1,9 @@
 header{
     background: var(--background-color);
+    background-image: url(../img/better.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,13 +11,6 @@ header{
     align-items: center;
     position: relative;
     width: 100vw;
-}
-
-.back{
-    position: absolute;
-    bottom: 0;
-    box-sizing: border-box;
-    z-index: 0;
 }
 
 .header-screen{
