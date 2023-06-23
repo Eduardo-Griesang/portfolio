@@ -22,6 +22,7 @@
 
 .card{
     width: 18rem;
+    z-index: 2;
 }
 
 .card-img{

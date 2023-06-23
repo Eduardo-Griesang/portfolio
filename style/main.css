@@ -37,6 +37,7 @@ body::-webkit-scrollbar-thumb{
     translate: -50% -50%;
     border-radius: 50%;
     pointer-events: none; /* faz o blob não ser clicavel, permitindo o click de outras coisas embaixo dele */
+    z-index: 1;
 }
 
 @keyframes rotate {
