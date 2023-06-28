@@ -46,4 +46,3 @@ document.addEventListener("scroll", () => {
 });
 
 menuItems()
-
