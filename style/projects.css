@@ -10,6 +10,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
 }
 
 .projects-cards{
