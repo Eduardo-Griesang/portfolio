@@ -84,3 +84,10 @@
         gap: 2rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .tecnologies-item{
+        transform: translateX(-10%);
+        width: 130%;
+    }
+}
