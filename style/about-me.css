@@ -11,8 +11,7 @@
     color: var(--white);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    margin-bottom: 2em;
+    font-size: 1.8em;
 }
 
 .typed{
@@ -43,6 +42,10 @@
     line-height: 1.5em;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.about__me-txt p{
+  margin-top: 1em;
 }
 
 @media screen and (max-width:1650px) {
