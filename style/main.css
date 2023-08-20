@@ -30,6 +30,7 @@ body::-webkit-scrollbar-thumb{
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8em;
+    line-height: 2em;
     padding-bottom: 2em;
 }
 
