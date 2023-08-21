@@ -90,4 +90,8 @@
         transform: translateX(-10%);
         width: 130%;
     }
+    .tecnologies{
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
 }

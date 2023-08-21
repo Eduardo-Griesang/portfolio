@@ -30,6 +30,12 @@ footer{
     }
 }
 
+@media screen and (max-width:500px) {
+    footer{
+        padding: 2.5em;
+    }
+}
+
 @media screen and (max-width:375px) {
     .footer-title{
         font-size: 1.1em;
