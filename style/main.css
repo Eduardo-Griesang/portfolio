@@ -26,12 +26,26 @@ body::-webkit-scrollbar-thumb{
 }
 
 .title2{
+    animation: reveal both linear;
+    animation-timeline: view();
+    animation-range: entry 60% cover 60%;
     color: var(--white);
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-size: 1.8em;
     line-height: 2em;
     padding-bottom: 2em;
+}
+
+@keyframes reveal {
+    from{
+        transform: translateX(-3%);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
 
 .bloob{

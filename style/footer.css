@@ -17,6 +17,22 @@ footer{
     margin-right: 3rem;
 }
 
+.footer-item{
+    animation: onOff linear both;
+    animation-timeline: view();
+    animation-range: entry 60% cover 60%;
+    animation-duration: 1ms;
+}
+
+@keyframes onOff {
+    from{
+        transform: translateX(-50%);
+      }
+      to{
+        transform: translateX(0%);
+      }
+}
+
 @media screen and (max-width:700px) {
     footer{
         flex-direction: column;
