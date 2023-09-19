@@ -49,7 +49,7 @@
   animation: fade linear both;
   animation-duration: 1ms;
   animation-timeline: view();
-  animation-range: entry 60% cover 60%;
+  animation-range: entry 50% cover 30%;
   margin-top: 1em;
 }
 
