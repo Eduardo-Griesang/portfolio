@@ -77,9 +77,32 @@ body::-webkit-scrollbar-thumb{
     }
 }
 
+.text-svg{
+    animation: svg-ani 180s infinite linear;
+    background-image: url(../img/layered-steps-haikei.svg);
+    background-size: 100%;
+    z-index: 9;
+}
+
+@keyframes svg-ani {
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 0% -1000%;
+    }
+}
+
 @media screen and (max-width: 1020px) {
     .bloob{
         display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-svg{
+        background-image: none;
+        background-color: var(--background-color3);
     }
 }
 
