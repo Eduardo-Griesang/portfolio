@@ -11,10 +11,13 @@ footer{
     color: var(--white);
 }
 
+.gap{
+    gap: 2em;
+}
+
 .footer-item{
     color: var(--white);
     font-size: 2em;
-    margin-right: 3rem;
 }
 
 .footer-item{
@@ -42,7 +45,6 @@ footer{
     }
     .item{
         max-width: 32px;
-        margin-right: 1em;
     }
 }
 
