@@ -48,7 +48,7 @@ header{
 }
 
 .header-screen-img{
-    background-image: url(../img/drawned\ icon.jpg);    /* imagem chamada aqui para funcionar corretamente */
+    background-image: url(../img/avi/drawned-icon_1.avif);    /* imagem chamada aqui para funcionar corretamente */
     filter: sepia(100%) hue-rotate(160deg);     /* filtro para deixar a img azulada */
     position: absolute;
     background-position: 50% 42%;
