@@ -31,3 +31,9 @@
     font-size: 1em;
     line-height: 1.5em;
 }
+
+.contra{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
