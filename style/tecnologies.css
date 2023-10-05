@@ -1,8 +1,6 @@
 .tecnologies{
-    padding-top: 4em;
-    padding-bottom: 4em;
-    padding-left: 20%;
-    padding-right: 20%;
+    background-color: var(--background-color3);
+    padding: 4em 20%;
 }
 
 .tecnologies-item{
