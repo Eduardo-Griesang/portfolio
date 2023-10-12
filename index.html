@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="style/projects.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/offcanvas.css">
+    <script src="src/components/projectCard.js" defer></script>
 </head>
 
 
@@ -57,6 +58,7 @@
         </div>
     </header>
     <main>
+        
         <section class="about__me" id="about-me">
             <h1 class="title" id="hello">Hey there!</h1>
             <section class="about__me-txt">
@@ -131,59 +133,48 @@
                 <h1 class="title2">Projects</h1>
     
                 <div class="projects-wrapper">
-                    <div class="card college-card projects-cards">
-                        <img src="img/avi/zaka.avif" class="card-img-top" alt="Edie Homepage">
-                        <div class="card-body">
-                          <h5 class="card-title">Zaka's page</h5>
-                          <p class="card-text">This is an overview of how a band website would look like, Zaka is a very talented Brazilian musician. I used some really nice page effects.</p>
-                          <a href="https://zaka-kappel.vercel.app" class="btn">Visit</a>
-                        </div>
-                    </div>
-
-                    <div class="card college-card projects-cards">
-                        <img src="img/avi/Outer_Wilds_Logo.avif" class="card-img-top" alt="React page">
-                        <div class="card-body">
-                          <h5 class="card-title">Outer Wilds FanPage</h5>
-                          <p class="card-text">This is a fan website for the game Outer Wilds. I used this webpage to learn how to use Framer Motion and 3D models</p>
-                          <a href="https://outer-wilds-fanpage.vercel.app" class="btn">Visit</a>
-                        </div>
-                    </div>
-
-                    <div class="card college-card projects-cards">
-                        <img src="img/avi/valorant.avif" class="card-img-top" alt="React page">
-                        <div class="card-body">
-                          <h5 class="card-title">Valorant teams</h5>
-                          <p class="card-text">A Web page that you can use to add your team players and functions that each one will fulfill in your Valorant matches.</p>
-                          <a href="https://vavazinho.vercel.app" class="btn">Visit</a>
-                        </div>
-                    </div>
-    
-                    <div class="card college-card projects-cards">
-                        <img src="img/avi/pokedex.avif" class="card-img-top" alt="React page">
-                        <div class="card-body">
-                          <h5 class="card-title">Pokedex</h5>
-                          <p class="card-text">A Pokedex working with the PokeAPI, you can browse through all your favorite Pokemons</p>
-                          <a href="https://pokedex-tan-nine.vercel.app" class="btn">Visit</a>
-                        </div>
-                    </div>
-        
-                    <div class="card college-card projects-cards">
-                        <img src="img/avi/amazon_prime.avif" class="card-img-top" alt="Edie Homepage">
-                        <div class="card-body">
-                          <h5 class="card-title">Prime video clone</h5>
-                          <p class="card-text">Currently working on a clone of the Amazon Prime video clone, it's still on development so the responsiveness and features aren't working yet.</p>
-                          <a href="https://prime-video-clone-seven.vercel.app" class="btn">Visit</a>
-                        </div>
-                    </div>
-    
-                    <div class="card college-card projects-cards">
-                        <img src="img/avi/Edie-Homepage_1.avif" class="card-img-top" alt="Edie Homepage">
-                        <div class="card-body">
-                          <h5 class="card-title">Edie Homepage</h5>
-                          <p class="card-text">This is a beautiful homepage for a software company. I opted not to use a CSS framework to actually learn how to write and use CSS.</p>
-                          <a href="https://edie-homepage-dev-challenges.vercel.app" class="btn">Visit</a>
-                        </div>
-                    </div>
+                    <project-card
+                        img="img/avi/zaka.avif"
+                        title="Zaka's page" 
+                        text="This is an overview of the Zaka's band, he is a very talented Brazilian musician. I used some really nice page effects."
+                        link="https://zaka-kappel.vercel.app" 
+                        >
+                    </project-card>
+                    <project-card
+                        img="img/avi/Outer_Wilds_Logo.avif"
+                        title="Outer Wilds FanPage" 
+                        text="This is a fan website for the game Outer Wilds. I used this webpage to learn how to use Framer Motion and 3D models"
+                        link="https://outer-wilds-fanpage.vercel.app" 
+                        >
+                    </project-card>
+                    <project-card
+                        img="img/avi/valorant.avif"
+                        title="Valorant teams" 
+                        text="A Web page that you can use to add your team players and functions that each one will fulfill in your Valorant matches."
+                        link="https://vavazinho.vercel.app" 
+                        >
+                    </project-card>
+                    <project-card
+                        img="img/avi/pokedex.avif"
+                        title="Pokedex" 
+                        text="A Pokedex working with the PokeAPI, you can browse through all your favorite Pokemons"
+                        link="https://pokedex-tan-nine.vercel.app" 
+                        >
+                    </project-card>
+                    <project-card
+                        img="img/avi/amazon_prime.avif"
+                        title="Prime video clone" 
+                        text="Currently working on a clone of the Amazon Prime video clone, it's still on development so the responsiveness and features aren't working yet."
+                        link="https://prime-video-clone-seven.vercel.app" 
+                        >
+                    </project-card>
+                    <project-card
+                        img="img/avi/Edie-Homepage_1.avif"
+                        title="Edie Homepage" 
+                        text="This is a beautiful homepage for a software company. I opted not to use a CSS framework to actually learn how to write and use CSS."
+                        link="https://edie-homepage-dev-challenges.vercel.app" 
+                        >
+                    </project-card>
                 </div>
         </section>
         

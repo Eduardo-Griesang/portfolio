@@ -7,7 +7,7 @@ const hello = document.getElementById("hello");
 let scrollPosition = 0; /* inicia as variaveis em 0 */
 let positionY = 0;
 
-/* basicamente um event listener de quando o mouse se mexe */
+/* event listener de quando o mouse se mexe */
 document.body.onmousemove = (event) => {
   const { clientX, clientY } = event; /* pega a posição XY do mouse */
 
