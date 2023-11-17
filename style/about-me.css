@@ -49,18 +49,18 @@
   animation: fade linear both;
   animation-duration: 1ms;
   animation-timeline: view();
-  animation-range: entry 50% cover 30%;
+  animation-range: entry 70% cover 30%;
   margin-top: 1em;
 }
 
 @keyframes fade {
   from{
     opacity: 0;
-    transform: translateX(-30%);
+    transform: translateY(100%);
   }
   to{
     opacity: 1;
-    transform: translateX(0%);
+    transform: translateY(0%);
   }
 }
 
