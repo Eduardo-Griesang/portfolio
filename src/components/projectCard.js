@@ -79,6 +79,7 @@ class projectCard extends HTMLElement {
         }
         .card-text{
             line-height: 1.3em;
+            font-size: 14px;
             margin: 0;
         }
         .btn{
