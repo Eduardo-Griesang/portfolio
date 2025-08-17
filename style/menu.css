@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 400px) {
     .menu{
-        font-size: 1.3em;
+        font-size: 1em;
         gap: 0;
     }
     .menu-item{
